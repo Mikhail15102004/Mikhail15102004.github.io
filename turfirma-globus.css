@@ -1,0 +1,211 @@
+/* Reset styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    color: #fff;
+    padding: 1rem;
+}
+
+.header nav a {
+    color: #fff;
+    text-decoration: underline;
+    margin-right: 1rem;
+}
+
+.block2,  .block3, .block4, .block5, .block6 {
+    margin-bottom: 0rem;
+    
+}
+
+.block2, .block3, .block4, .block5, .block6 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.block2 img, .block3 img, .block4 img, .block5 img, .block6 img {
+    width: 150%;
+    max-width: 1000px;
+    height: auto;
+    margin-bottom: 1rem;
+}
+
+.button1, .button2, .button3, .button4 {
+    display: inline-block;
+    background-color: #333;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    text-decoration:underline;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.button1:hover, .button2:hover, .button3:hover, .button4:hover {
+    background-color: #555;
+}
+
+.block7 {
+    text-align: center;
+    margin-bottom: 2rem;
+    
+}
+
+
+.block1{
+    background-color: aqua;
+    left: 70%;
+    display: flex;
+    width: 100%;
+
+}
+.block1 img {
+    display: block;
+    margin:0 auto;
+  }
+  .block2{
+    background-color: bisque;
+    left: 70%;
+    display: flex;
+    width: 100%;
+
+}
+  .block2 img {
+    display: block;
+    width: 80%; /* Устанавливаем ширину изображения на 80% от ширины блока 3 */
+    display: block; /* Делаем изображение блочным элементом, чтобы можно было установить отступы по центру */
+    margin: 0 auto; /* Центрируем изображение внутри блока */
+  }
+  .block3{
+    background-color: beige;
+    left: 70%;
+    display: flex;
+    width: 100%;
+
+}
+.block3 img {
+    display: block;
+    margin:0 auto;
+    width: 80%; /* Устанавливаем ширину изображения на 80% от ширины блока 3 */
+    display: block; /* Делаем изображение блочным элементом, чтобы можно было установить отступы по центру */
+    margin: 0 auto; /* Центрируем изображение внутри блока */
+  }
+  .block4 {
+    background-color: burlywood;
+    left: 70%;
+    display: flex;
+    width: 100%;
+
+}
+.block4 img {
+    display: block;
+    margin:0 auto;
+    width: 80%; /* Устанавливаем ширину изображения на 80% от ширины блока 3 */
+    display: block; /* Делаем изображение блочным элементом, чтобы можно было установить отступы по центру */
+    margin: 0 auto; /* Центрируем изображение внутри блока */
+  }
+  .block5 {
+    background-color:azure;
+    left: 70%;
+    display: flex;
+    width: 100%;
+    text-align: center;
+  font-weight: 700;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+.block5 img {
+    display:flex;
+    margin:0 auto;
+    width: 50%; /* Устанавливаем ширину изображения на 80% от ширины блока 3 */
+    display: block; /* Делаем изображение блочным элементом, чтобы можно было установить отступы по центру */
+    margin: 0%; /* Центрируем изображение внутри блока */
+    left: 10px;
+    border-radius: 10%;
+
+  }
+  .block6 {
+    background-color:cornsilk;
+    left: 70%;
+    display: flex;
+    width: 100%;
+    text-align: center;
+  font-weight: 700;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+.block6 img {
+    display:flex;
+    margin:0 auto;
+    width: 70%; /* Устанавливаем ширину изображения на 80% от ширины блока 3 */
+    display: block; /* Делаем изображение блочным элементом, чтобы можно было установить отступы по центру */
+    margin: 0%; /* Центрируем изображение внутри блока */
+    left: 10px;
+    border-radius: 10%;
+
+  }
+  .button4{
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #e48415;
+    color: #fff;
+    text-decoration: none;
+  }
+  .block7{
+     background-color:burlywood;
+    left: 70%;
+    width: 100%;
+    text-align: center;
+  font-weight: 700;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin-bottom: 0;
+  }
+  .footer {
+    text-align: center;
+    background-color:black;
+    padding: 10px;
+    margin: auto;
+}
+
+.nav2 {
+    margin-top: 15px;
+    font-size: 12px;
+   
+}
+
+.Socials {
+    text-decoration: underline;
+    color:whitesmoke;
+    margin: 0 10px;
+}
+
+h56 {
+    font-size: 20px;
+    color:whitesmoke
+}
+
+h57, h58, h59, h60, h61 {
+    margin-top: 15px;
+    width: 50px;
+    height: 20px;
+    display: inline-block;
+}
+
+h57 img, h58 img, h59 img, h60 img, h61 img {
+    width: 30px;
+    height: 30px;
+}

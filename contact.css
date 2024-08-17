@@ -1,0 +1,55 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    background-image: url("1710163392_bogatyr-club-32b2-p-fon-dlya-prezentatsii-tropiki-83.jpg");
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+.content-width {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.text {
+    line-height: 1.6;
+}
+
+h1 {
+    font-size: 2em;
+}
+
+strong {
+    color: #007bff;
+}
+
+/* Стили для ссылок */
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: #fff;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: underline;
+}
+
